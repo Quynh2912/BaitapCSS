@@ -1,0 +1,126 @@
+<html lang="en">
+    <head> <title> Bài tập CSS</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style type="text/css">
+            body{margin-left: 5%;
+            margin-right: 5%;
+            background-image: url("C:\Users\Admin\Downloads\08032013180101_49.jpg");}
+            h1{ color: gold;
+            text-align: center}
+            p{ color: black;
+            font-size: 38px;
+            font-family: 'Times New Roman', Times, serif;}
+            .container{
+                width: 800px;
+                border:1px solid gray;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .headerImg{
+                width: 100%;
+                display: block; margin-left: auto; margin-right: auto;
+            }
+            .content{
+                margin: 15px;
+            }
+            .footer{
+                background:darkred;
+                left: 50px;
+            }
+            .topnav{
+                overflow: hidden;
+                background-color:red;
+                left: 50px;
+            }
+            .topnav a{ 
+                display: block;
+                color: #f2f2f2;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                display: inline-block;
+                margin-left: 175px;
+            }
+            .topnav a:hover{
+                background-color: #dddddd;
+                color: black;
+            }
+            .columnLeft{
+                float: left;
+                width: 20%;
+                height: 40px;
+                line-height: 2.9em;
+                height: 2.9em;
+                font-weight: bold;
+                display: block;
+            }
+            .columnRight{
+                float: left;
+                width: 20%;
+            }
+            .columnCenter {
+                float: left;
+                width: 31%;
+                height: 425px;}
+            .row:after{
+                content: "";
+                display: table;
+                clear: both;
+            }
+            @media screen and (max-width: 600px) {
+                column{
+                    width: 100%;
+                }
+            }
+            .columnCenterImg{
+                width: 60%;
+                display: block; margin-left: auto; margin-right: auto;
+            }
+            .bg{position:fixed;
+            top:0;
+            left:0;
+            width:100%;
+            height:100%;
+            z-index:-1;}
+        </style>
+    </head>
+    <body>
+        <div class="bg">
+            <img src="C:\Users\Admin\Downloads\08032013180101_49.jpg">
+        </div>
+        <div class="headerImg">
+            <img src="C:\Users\Admin\Downloads\85846logomkd.png" height="120pt" width="1200pt">
+        </div>
+        <div class="topnav">
+            <a href="http://www.kinhdo.vn/">Trang chủ</a>
+            <a href="http://www.kinhdo.vn/#/vn/gioi-thieu">Giới thiệu</a>
+            <a href="http://www.kinhdo.vn/#/vn/nhan-hang"> Nhãn hàng</a>
+            <a href="http://www.kinhdo.vn/#/vn/tin-tuc/2"> Tin tức</a>
+        </div>
+        <div class="row" style="border: 1px">
+            <div class="columnLeft">
+                <ul>
+                    <p>
+
+                    </p>
+                    <li><a href="#"> Dịch vụ</a></li>
+                    <li><a href="#">Sản phẩm</a></li>
+                    <li><a href="#"> Diễn đàn</a></li>
+                    <li><a href="#">Liên hệ</a></li>
+                </ul>
+            </div>
+            <div class="columnCenter">
+                <p> Là chút Kinh Đô cho khoảnh khắc riêng đậm hương vị cuộc sống. Đơn giản thôi vì đó đã là VỊ CỦA HẠNH PHÚC.</p>
+            </div>
+        </div>
+        <footer>
+            <nav>
+                <a href="http://www.kinhdo.vn/faqs.html"> Hỏi đáp</a>
+                <a href="http://www.kinhdo.vn/sitemap.html"> Sơ đồ trang</a>
+                <a href="http://www.kinhdo.vn/terms.html"> Điều khoản sử dụng</a>
+                <a href="http://www.kinhdo.vn/contact.html">Liên hệ</a>
+            </nav>
+        </footer>
+    </body>
+</html>
